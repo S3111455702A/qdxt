@@ -1,0 +1,36 @@
+{
+  "name": "reservoir-report-system",
+  "version": "1.0.0",
+  "description": "铁塘桥水库水文汇报一键生成系统",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "antd": "^5.12.8",
+    "axios": "^1.12.2",
+    "dayjs": "^1.11.18",
+    "docx": "^9.5.1",
+    "docxtemplater": "^3.67.0",
+    "echarts": "^6.0.0",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "file-saver": "^2.0.5",
+    "jszip": "^3.10.1",
+    "officegen": "^0.6.5",
+    "pizzip": "^3.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "cors": "^2.8.5",
+    "nodemon": "^3.0.1",
+    "vite": "^5.0.10"
+  }
+}
